@@ -1,0 +1,59 @@
+.filter-wrapper {
+  padding: 20px;
+  min-width: 15%;
+  margin: 12px;
+  height: 80vh;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.filter-title {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.filter-cost {
+  margin-top: 20px;
+}
+
+.filter-color-box {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.filter-color-box-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.red {
+  background-color: red;
+}
+
+.cyan {
+  background-color: cyan;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+
+.filter-design-wrapper {
+  margin-top: 20px;
+}
+
+.filter-type-wrapper {
+  margin-top: 20px;
+}
+
+
+@media (max-width: 620px){
+  .filter-wrapper{
+    margin: 20px 0px;
+    width: 80%;
+    height: auto;
+  }
+}

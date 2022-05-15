@@ -1,0 +1,30 @@
+.contact-page-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 8%;
+}
+
+.contact-page-title {
+  margin-top: 60px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.contact-page-members-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 0px;
+}
+
+.contact-page-footnote{
+  font-size: 1.2rem;
+}
+
+
+.link{
+  cursor: pointer;
+}

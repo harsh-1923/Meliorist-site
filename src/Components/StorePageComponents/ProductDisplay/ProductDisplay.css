@@ -1,0 +1,29 @@
+.product-display-wrapper {
+  width: 60%;
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  min-height: 80vh;
+}
+
+.product-display-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-disp-wrapper{
+  display: flex;
+  /* align-items: center;÷ */
+  flex-wrap: wrap;
+}
+
+@media (max-width: 620px){
+  .product-display-wrapper{
+    width: 80%;
+    margin: 20px 0px;
+    height: auto;
+  }
+
+
+
+}

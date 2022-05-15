@@ -1,0 +1,68 @@
+.journey-img {
+  position: absolute;
+  /* margin: 20px auto; */
+  width: 80%;
+  left: 10vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 80%;
+  height: 100vh;
+  z-index: -10;
+}
+
+.jorney-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.journey-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  font-weight: 500;
+  font-size: 3rem;
+  color: white;
+}
+
+.journey-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20%;
+  color: white;
+}
+
+/* .journey-main-header{
+  text-align: center;
+} */
+
+@media (max-width: 620px) {
+  .journey-img {
+    max-width: 85%;
+    height: 100%;
+    top: 40px;
+    height: auto;
+  }
+  .journey-header {
+    font-size: 26px;
+  }
+
+  .journey-main-wrapper {
+    padding: 10px 15%;
+    color: black;
+    text-align: center;
+  }
+
+  .xxx {
+    font-size: 14px;
+  }
+
+  .journey-header-main {
+    font-size: 18px;
+  }
+}
